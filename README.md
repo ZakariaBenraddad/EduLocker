@@ -1,5 +1,7 @@
 # EduLocker - Ransomware Éducatif
 
+![Project Logo](/EduLocker/Pictures/l.png)
+
 ## ⚠️ AVERTISSEMENT ⚠️
 
 **CE LOGICIEL EST STRICTEMENT ÉDUCATIF**
@@ -23,12 +25,14 @@ EduLocker est un projet éducatif à double fonction :
 #### 1.1 Module Malware (Ransomware)
 
 - **core/locker.py** : Composant principal du ransomware qui gère le verrouillage de l'écran. Il crée une interface graphique plein écran qui simule un écran de rançon, avec des messages menaçants et une demande de paiement. Fonctionnalités clés :
+
   - Création d'une interface de verrouillage en plein écran
   - Mode agressif optionnel (désactivation du gestionnaire de tâches, masquage de la barre des tâches)
   - Système de déverrouillage avec code secret
   - Auto-déverrouillage après un délai configurable
 
 - **core/persistence.py** : Gère la persistance du malware sur le système, permettant son exécution automatique après un redémarrage. Implémente deux méthodes principales :
+
   - Ajout d'une clé dans le registre Windows (HKCU\Software\Microsoft\Windows\CurrentVersion\Run)
   - Création d'une tâche planifiée Windows
 
@@ -48,6 +52,7 @@ EduLocker est un projet éducatif à double fonction :
 ### 2. Configuration et Messages
 
 - **config/settings.py** : Fichier de configuration central qui contrôle le comportement du programme. Contient des paramètres pour :
+
   - Mode agressif (désactivation du gestionnaire de tâches, etc.)
   - Configuration de l'interface utilisateur
   - Méthodes de persistance
@@ -71,6 +76,7 @@ EduLocker est un projet éducatif à double fonction :
 ### 4. Fonctionnement Technique
 
 #### Processus de Verrouillage
+
 1. L'utilisateur lance le programme (après avertissements)
 2. Le système collecte des informations sur l'environnement
 3. Des méthodes de persistance sont installées (si configurées)
@@ -79,6 +85,7 @@ EduLocker est un projet éducatif à double fonction :
 6. Un minuteur est lancé pour l'auto-déverrouillage
 
 #### Processus Anti-Malware
+
 1. L'outil analyse le système à la recherche de traces d'EduLocker :
    - Processus en cours d'exécution
    - Entrées de registre
@@ -91,6 +98,7 @@ EduLocker est un projet éducatif à double fonction :
 ### 5. Mesures de Sécurité
 
 Le projet intègre plusieurs mesures de sécurité pour éviter tout dommage réel :
+
 - Aucun chiffrement de fichiers n'est effectué
 - Auto-déverrouillage après un délai configurable
 - Code d'urgence pour déverrouillage immédiat
@@ -100,16 +108,19 @@ Le projet intègre plusieurs mesures de sécurité pour éviter tout dommage ré
 ## Objectifs pédagogiques
 
 ### Côté Malware
+
 - Comprendre les mécanismes d'attaque des ransomwares
 - Étudier les techniques de verrouillage d'interface utilisateur
 - Explorer les méthodes de persistance sur un système
 
 ### Côté Anti-Malware
+
 - Apprendre les techniques de détection des logiciels malveillants
 - Comprendre les méthodes de suppression et de nettoyage
 - Étudier la restauration des systèmes compromis
 
 ### Général
+
 - Sensibiliser aux bonnes pratiques de sécurité
 - Développer une compréhension complète du cycle attaque/défense
 
@@ -164,6 +175,7 @@ Le comportement d'EduLocker peut être personnalisé en modifiant le fichier `co
 ### Mode agressif
 
 Le mode agressif active des fonctionnalités plus intrusives comme:
+
 - Désactivation du gestionnaire de tâches
 - Masquage de la barre des tâches
 - Terminaison du processus explorer.exe
