@@ -262,7 +262,26 @@ class SystemLocker:
             fg=self.ui_config['text_color'],
             bg=self.ui_config['background_color']
         )
-        title_label.pack(pady=30)
+        title_label.pack(pady=20)
+
+        # Ajout de l'image de tête de mort
+        try:
+            image_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                     "resources", "images", "image.png")
+            skull_image = tk.PhotoImage(file=image_path)
+            # Redimensionner l'image si nécessaire
+            skull_image = skull_image.subsample(2, 2)  # Divise la taille par 2
+
+            image_label = tk.Label(
+                main_frame,
+                image=skull_image,
+                bg=self.ui_config['background_color']
+            )
+            image_label.image = skull_image  # Garder une référence pour éviter la garbage collection
+            image_label.pack(pady=10)
+            self.logger.info("Image de tête de mort chargée avec succès")
+        except Exception as e:
+            self.logger.error(f"Erreur lors du chargement de l'image: {e}")
 
         subtitle_label = tk.Label(
             main_frame,

