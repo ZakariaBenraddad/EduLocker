@@ -38,13 +38,25 @@ Pour déverrouiller le système, entrez le code ci-dessous.
 		"emergency_unlock": "Déverrouillage d'urgence activé.",
 		"unlock_instruction": "Entrez le code de déverrouillage pour continuer :",
 		"unlock_code_hint": "Code éducatif : UNLOCK2024",
-		"emergency_hint": "Code d'urgence : EMERGENCY",
+  "emergency_hint": "Code d'urgence : EMERGENCY_EXIT_123",
 	},
 
 	"english": {
 		"title": "SYSTEM LOCKED",
 		"subtitle": "Cybersecurity project",
-		"main_message": """
+  "main_message": """
+WARNING: This is an educational demonstration of a locker-ransomware.
+
+Your system has been temporarily locked for educational purposes.
+No files have been encrypted or damaged.
+
+This demonstration illustrates how malware can:
+• Lock the user interface
+• Block access to applications
+• Request an unlock code
+
+EDUCATIONAL OBJECTIVE:
+Understanding attack mechanisms to better protect against them.
         """,
 		"warning": "⚠️ EDUCATIONAL DEMONSTRATION ⚠️",
 		"description": """
@@ -60,9 +72,9 @@ To unlock the system, enter the code below.
 		"invalid_code": "Invalid code! Please try again.",
 		"system_unlocked": "System unlocked successfully!",
 		"emergency_unlock": "Emergency unlock activated.",
-		"unlock_instruction": "Entrez le code de déverrouillage pour continuer :",
-		"unlock_code_hint": "Code éducatif : UNLOCK2024",
-		"emergency_hint": "Code d'urgence : EMERGENCY",
+		"unlock_instruction": "Enter the unlock code to continue:",
+		"unlock_code_hint": "Educational code: UNLOCK2024",
+  "emergency_hint": "Emergency code: EMERGENCY_EXIT_123",
 	}
 }
 
