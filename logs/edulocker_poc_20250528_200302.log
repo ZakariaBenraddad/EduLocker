@@ -1,0 +1,6 @@
+2025-05-28 20:03:02,443 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 20:03:07,643 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 20:03:07,646 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 20:03:08,883 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 20:03:08,885 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 20:03:08,899 - EduLocker - ERROR - Erreur inattendue : 'max_attempts'

