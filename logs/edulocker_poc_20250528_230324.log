@@ -1,0 +1,17 @@
+2025-05-28 23:03:24,851 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 23:03:30,086 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 23:03:30,090 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 23:03:31,613 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 23:03:31,619 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 23:03:31,622 - EduLocker.Locker - INFO - SystemLocker initialisé avec configuration de comportement de verrouillage.
+2025-05-28 23:03:31,624 - EduLocker.PersistenceManager - INFO - Gestionnaire de persistance initialisé pour 'EduLockerServicePOC'
+2025-05-28 23:03:31,627 - EduLocker.PersistenceManager - INFO - Chemin pour persistance : python "C:\Users\mac\Desktop\EduLocker\main.py" --locked-startup
+2025-05-28 23:03:31,634 - EduLocker.PersistenceManager - INFO - Application des méthodes de persistance...
+2025-05-28 23:03:31,637 - EduLocker.PersistenceManager - INFO - Clé de registre 'EduLockerServicePOC' ajoutée avec succès dans HKCU\Run.
+2025-05-28 23:03:31,758 - EduLocker.PersistenceManager - ERROR - Erreur lors de la création de la tâche planifiée (code 2147500037): Erreurÿ: Argument ou option non valide - 'C:\Users\mac\Desktop\EduLocker\main.py'.
+Entrez "SCHTASKS /CREATE /?" pour afficher la syntaxe.
+
+2025-05-28 23:03:31,762 - EduLocker.PersistenceManager - WARNING - Au moins une méthode de persistance a échoué ou n'a pas été appliquée.
+2025-05-28 23:03:31,767 - EduLocker - INFO - Démarrage du verrouillage système...
+2025-05-28 23:03:31,769 - EduLocker.Locker - INFO - Début de la séquence de verrouillage
+2025-05-28 23:03:33,555 - EduLocker - INFO - Interruption par l'utilisateur (Ctrl+C)

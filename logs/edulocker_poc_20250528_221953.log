@@ -1,0 +1,33 @@
+2025-05-28 22:19:53,558 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 22:19:59,151 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 22:19:59,153 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 22:20:02,844 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 22:20:02,848 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 22:20:02,853 - EduLocker.Locker - INFO - SystemLocker initialisé avec configuration de comportement de verrouillage.
+2025-05-28 22:20:02,869 - EduLocker - INFO - Démarrage du verrouillage système...
+2025-05-28 22:20:02,873 - EduLocker.Locker - INFO - Début de la séquence de verrouillage
+2025-05-28 22:20:06,168 - EduLocker.Locker - WARNING - Mode agressif activé. Application des verrouillages système.
+2025-05-28 22:20:06,174 - EduLocker.Locker - ERROR - Erreur lors de la modification de l'état du Gestionnaire des Tâches : [WinError 5] Accès refusé
+2025-05-28 22:20:06,192 - EduLocker.Locker - INFO - Barre des tâches masquée.
+2025-05-28 22:20:06,216 - EduLocker.Locker - WARNING - Tentative de terminaison du processus explorer.exe (RISQUÉ !)
+2025-05-28 22:20:06,769 - EduLocker.Locker - INFO - explorer.exe terminé avec succès.
+2025-05-28 22:20:06,777 - EduLocker.Locker - INFO - Verrouillage système activé (interface)
+2025-05-28 22:20:07,235 - EduLocker.Locker - INFO - Interface de verrouillage créée
+2025-05-28 22:20:07,361 - EduLocker.Locker - INFO - Monitoring (potentiellement agressif) démarré
+2025-05-28 22:20:07,372 - EduLocker.Locker - INFO - Démarrage de l'interface de verrouillage
+2025-05-28 22:20:20,971 - EduLocker.Locker - INFO - Tentative de déverrouillage #1: vtt...
+2025-05-28 22:20:20,976 - EduLocker.Locker - WARNING - Code incorrect: vttdwdw
+2025-05-28 22:20:41,897 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Alt_L
+2025-05-28 22:20:52,319 - EduLocker.Locker - INFO - Tentative de déverrouillage #2: UNL...
+2025-05-28 22:20:52,323 - EduLocker.Locker - WARNING - Code incorrect: UNLOCK"="$
+2025-05-28 22:21:05,833 - EduLocker.Locker - INFO - Tentative de déverrouillage #3: UNL...
+2025-05-28 22:21:05,837 - EduLocker.Locker - INFO - Code de déverrouillage correct
+2025-05-28 22:21:05,838 - EduLocker.Locker - INFO - Déverrouillage du système - Raison: Code correct
+2025-05-28 22:21:05,840 - EduLocker.Locker - WARNING - Mode agressif : Annulation des verrouillages système.
+2025-05-28 22:21:05,841 - EduLocker.Locker - INFO - Tentative de redémarrage du processus explorer.exe.
+2025-05-28 22:21:05,846 - EduLocker.Locker - INFO - Commande de redémarrage d'explorer.exe envoyée.
+2025-05-28 22:21:05,847 - EduLocker.Locker - WARNING - Impossible de trouver le handle de la barre des tâches.
+2025-05-28 22:21:05,849 - EduLocker.Locker - ERROR - Erreur lors de la modification de l'état du Gestionnaire des Tâches : [WinError 5] Accès refusé
+2025-05-28 22:21:05,926 - EduLocker.Locker - INFO - Système déverrouillé avec succès
+2025-05-28 22:21:05,932 - EduLocker.Locker - INFO - Interface de verrouillage fermée
+2025-05-28 22:21:06,002 - EduLocker - INFO - === FIN EDULOCKER POC ===

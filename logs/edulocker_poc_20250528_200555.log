@@ -1,0 +1,23 @@
+2025-05-28 20:05:55,162 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 20:06:00,304 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 20:06:00,308 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 20:06:01,520 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 20:06:01,521 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 20:06:01,524 - EduLocker.Locker - INFO - SystemLocker initialisé avec configuration de comportement de verrouillage.
+2025-05-28 20:06:01,527 - EduLocker - INFO - Démarrage du verrouillage système...
+2025-05-28 20:06:01,529 - EduLocker.Locker - INFO - Début de la séquence de verrouillage
+2025-05-28 20:06:04,662 - EduLocker.Locker - INFO - Verrouillage système activé (interface)
+2025-05-28 20:06:05,240 - EduLocker.Locker - ERROR - Erreur dans la séquence de verrouillage : 'background_color'
+Traceback (most recent call last):
+  File "C:\Users\mac\Desktop\EduLocker\core\locker.py", line 130, in start_lock_sequence
+    self._initiate_lock()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mac\Desktop\EduLocker\core\locker.py", line 138, in _initiate_lock
+    self._create_lock_interface()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mac\Desktop\EduLocker\core\locker.py", line 243, in _create_lock_interface
+    self.lock_window.configure(bg=self.ui_config['background_color'])
+                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'background_color'
+2025-05-28 20:06:05,253 - EduLocker.Locker - CRITICAL - TENTATIVE DE DÉVERROUILLAGE SÉCURISÉ - Raison: Erreur au démarrage
+2025-05-28 20:06:10,659 - EduLocker - INFO - === FIN EDULOCKER POC ===

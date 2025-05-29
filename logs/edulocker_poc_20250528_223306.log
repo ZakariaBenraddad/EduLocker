@@ -1,0 +1,27 @@
+2025-05-28 22:33:06,961 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 22:33:12,152 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 22:33:12,153 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 22:33:15,004 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 22:33:15,047 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 22:33:15,097 - EduLocker.Locker - INFO - SystemLocker initialisé avec configuration de comportement de verrouillage.
+2025-05-28 22:33:15,145 - EduLocker.PersistenceManager - INFO - Gestionnaire de persistance initialisé pour 'EduLockerServicePOC'
+2025-05-28 22:33:15,173 - EduLocker.PersistenceManager - INFO - Chemin pour persistance : "C:\Users\mac\AppData\Local\Programs\Python\Python313\python.exe" "C:\Users\mac\Desktop\EduLocker\main.py" --locked-startup
+2025-05-28 22:33:15,174 - EduLocker.PersistenceManager - INFO - Application des méthodes de persistance...
+2025-05-28 22:33:15,174 - EduLocker.PersistenceManager - INFO - Clé de registre 'EduLockerServicePOC' ajoutée avec succès dans HKCU\Run.
+2025-05-28 22:33:15,240 - EduLocker.PersistenceManager - ERROR - Erreur lors de la création de la tâche planifiée (code 2147500037): Erreurÿ: Argument ou option non valide - 'C:\Users\mac\Desktop\EduLocker\main.py'.
+Entrez "SCHTASKS /CREATE /?" pour afficher la syntaxe.
+
+2025-05-28 22:33:15,242 - EduLocker.PersistenceManager - WARNING - Au moins une méthode de persistance a échoué ou n'a pas été appliquée.
+2025-05-28 22:33:15,242 - EduLocker - INFO - Démarrage du verrouillage système...
+2025-05-28 22:33:15,243 - EduLocker.Locker - INFO - Début de la séquence de verrouillage
+2025-05-28 22:33:18,439 - EduLocker.Locker - WARNING - Mode agressif activé. Application des verrouillages système.
+2025-05-28 22:33:18,444 - EduLocker.Locker - ERROR - Erreur lors de la modification de l'état du Gestionnaire des Tâches : [WinError 5] Accès refusé
+2025-05-28 22:33:18,467 - EduLocker.Locker - INFO - Barre des tâches masquée.
+2025-05-28 22:33:18,472 - EduLocker.Locker - WARNING - Tentative de terminaison du processus explorer.exe (RISQUÉ !)
+2025-05-28 22:33:18,696 - EduLocker.Locker - INFO - explorer.exe terminé avec succès.
+2025-05-28 22:33:18,699 - EduLocker.Locker - INFO - Verrouillage système activé (interface)
+2025-05-28 22:33:18,816 - EduLocker.Locker - INFO - Interface de verrouillage créée
+2025-05-28 22:33:18,821 - EduLocker.Locker - INFO - Monitoring (potentiellement agressif) démarré
+2025-05-28 22:33:18,822 - EduLocker.Locker - INFO - Démarrage de l'interface de verrouillage
+2025-05-28 22:33:28,511 - EduLocker.Locker - INFO - Tentative de déverrouillage #1: jjj...
+2025-05-28 22:33:28,514 - EduLocker.Locker - WARNING - Code incorrect: jjjj

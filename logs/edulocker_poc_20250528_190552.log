@@ -1,0 +1,2 @@
+2025-05-28 19:05:52,328 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 19:05:57,104 - EduLocker - ERROR - Erreur inattendue : module 'os' has no attribute 'geteuid'

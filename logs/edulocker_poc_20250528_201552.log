@@ -1,0 +1,43 @@
+2025-05-28 20:15:52,254 - EduLocker - INFO - === DÉMARRAGE EDULOCKER POC ===
+2025-05-28 20:15:57,378 - EduLocker.Environment - INFO - Système détecté : Windows 10.0.19045
+2025-05-28 20:15:57,382 - EduLocker.Environment - INFO - Architecture : AMD64
+2025-05-28 20:15:59,485 - EduLocker - INFO - Démarrage confirmé par l'utilisateur
+2025-05-28 20:15:59,487 - EduLocker - INFO - Initialisation du système de verrouillage...
+2025-05-28 20:15:59,490 - EduLocker.Locker - INFO - SystemLocker initialisé avec configuration de comportement de verrouillage.
+2025-05-28 20:15:59,493 - EduLocker - INFO - Démarrage du verrouillage système...
+2025-05-28 20:15:59,495 - EduLocker.Locker - INFO - Début de la séquence de verrouillage
+2025-05-28 20:16:02,661 - EduLocker.Locker - INFO - Verrouillage système activé (interface)
+2025-05-28 20:16:02,945 - EduLocker.Locker - INFO - Interface de verrouillage créée
+2025-05-28 20:16:02,950 - EduLocker.Locker - INFO - Monitoring (potentiellement agressif) démarré
+2025-05-28 20:16:02,951 - EduLocker.Locker - INFO - Démarrage de l'interface de verrouillage
+2025-05-28 20:16:20,188 - EduLocker.Locker - INFO - Tentative de déverrouillage #1: sdh...
+2025-05-28 20:16:20,194 - EduLocker.Locker - WARNING - Code incorrect: sdhsjgdsj
+2025-05-28 20:17:30,048 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape
+2025-05-28 20:17:30,959 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape
+2025-05-28 20:17:31,472 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape
+2025-05-28 20:17:47,261 - EduLocker.Locker - INFO - Tentative de déverrouillage #2: UNL...
+2025-05-28 20:17:47,267 - EduLocker.Locker - WARNING - Code incorrect: UNLOCK2024
+2025-05-28 20:18:10,290 - EduLocker.Locker - INFO - Tentative de déverrouillage #3: UNL...
+2025-05-28 20:18:10,295 - EduLocker.Locker - WARNING - Code incorrect: UNLOCK2024
+2025-05-28 20:18:32,326 - EduLocker.Locker - INFO - Tentative de déverrouillage #4: UNL...
+2025-05-28 20:18:32,330 - EduLocker.Locker - WARNING - Code incorrect: UNLOCK2024
+2025-05-28 20:18:39,224 - EduLocker.Locker - INFO - Tentative de déverrouillage #5: faf...
+2025-05-28 20:18:39,231 - EduLocker.Locker - WARNING - Code incorrect: fafgwhsxw
+2025-05-28 20:18:39,233 - EduLocker.Locker - WARNING - Nombre maximum de tentatives atteint
+2025-05-28 20:18:51,360 - EduLocker.Locker - INFO - Tentative de déverrouillage #6: jsb...
+2025-05-28 20:18:51,368 - EduLocker.Locker - WARNING - Code incorrect: jsbnjsb
+2025-05-28 20:18:51,370 - EduLocker.Locker - WARNING - Nombre maximum de tentatives atteint
+2025-05-28 20:19:08,064 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape
+2025-05-28 20:19:23,002 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Alt_L
+2025-05-28 20:19:29,010 - EduLocker.Locker - INFO - Tentative de déverrouillage #7: fff...
+2025-05-28 20:19:29,017 - EduLocker.Locker - WARNING - Code incorrect: fff
+2025-05-28 20:19:29,020 - EduLocker.Locker - WARNING - Nombre maximum de tentatives atteint
+2025-05-28 20:22:07,208 - EduLocker.Locker - INFO - Tentative de déverrouillage #8: vtb...
+2025-05-28 20:22:07,245 - EduLocker.Locker - WARNING - Code incorrect: vtbgbznb
+2025-05-28 20:22:07,247 - EduLocker.Locker - WARNING - Nombre maximum de tentatives atteint
+2025-05-28 20:22:24,443 - EduLocker.Locker - INFO - Tentative de déverrouillage #9: UNL...
+2025-05-28 20:22:24,450 - EduLocker.Locker - WARNING - Code incorrect: UNLOCK2024
+2025-05-28 20:22:24,452 - EduLocker.Locker - WARNING - Nombre maximum de tentatives atteint
+2025-05-28 20:22:45,512 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape
+2025-05-28 20:22:46,559 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape
+2025-05-28 20:22:48,894 - EduLocker.Locker - INFO - Tentative de raccourci détectée : Escape

@@ -1,0 +1,9 @@
+psutil
+requests
+cryptography
+pytest
+black
+flake8
+mypy
+pyinstaller
+auto-py-to-exe
