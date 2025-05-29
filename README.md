@@ -1,6 +1,6 @@
 # EduLocker - Ransomware Éducatif
 
-![Project Logo](/EduLocker/Pictures/l.png)
+![Project Logo](./resources/images/l.png)
 
 ## ⚠️ AVERTISSEMENT ⚠️
 
