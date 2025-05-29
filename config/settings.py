@@ -51,7 +51,7 @@ POC_CONFIG = {
     
     "ui_config": {
         # Configuration de l'interface utilisateur
-        "background_color": "#1a1a1a",  # Couleur de fond sombre
+        "background_color": "#ff0000",  # Couleur de fond sombre
         "text_color": "#ffffff",        # Texte blanc
         "font_family": "Arial",         # Police par défaut
         "title_font_size": 32,          # Taille de police du titre
